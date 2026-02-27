@@ -2,6 +2,7 @@ export interface QueryResponse {
   answer: string;
   source_chunks: string[];
   model_used: string;
+  citations?: Citation[];
 }
 
 export interface UploadResponse {
