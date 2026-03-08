@@ -131,7 +131,7 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Contact / Support
-For support or inquiries, please contact the project maintainer at [your-email@example.com].
+For support or inquiries, please contact the project maintainer at [darnelcastor2@gmail.com].
 
 ## Acknowledgments
 - Thanks to the contributors and the open-source community for their support and resources.
