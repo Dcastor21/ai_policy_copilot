@@ -8,6 +8,7 @@ class Settings(BaseSettings):
     top_k_results: int = 4
     upload_dir: str = "uploads"
     index_path: str = "faiss_index"
+    documents_manifest: str = "faiss_index/documents.json"  # ADD THIS
 
     class Config:
         env_file = ".env"

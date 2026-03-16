@@ -2,7 +2,7 @@ import type { QueryResponse, UploadResponse, HealthResponse } from "@/types";
 
 
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+const API_BASE = `${process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000"}/api/v1`;
 
 export async function uploadDocument(file: File): Promise<UploadResponse> {
   const formData = new FormData();
