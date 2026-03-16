@@ -1,0 +1,21 @@
+name: Docker build check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build backend image
+        run: docker build -t ai-policy-copilot-be ./be
+
+      - name: Build frontend image
+        run: docker build -t ai-policy-copilot-fe ./fe
+        continue-on-error: true  # fe has no Dockerfile yet — remove once added
