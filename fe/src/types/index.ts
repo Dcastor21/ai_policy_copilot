@@ -1,3 +1,9 @@
+export interface Citation {
+  source: string;
+  text: string;
+  page?: number;
+}
+
 export interface QueryResponse {
   answer: string;
   source_chunks: string[];
