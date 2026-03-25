@@ -128,10 +128,10 @@ Contributions are welcome! Please follow these steps:
 3. Submit a pull request with a clear description of your changes.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License.
 
 ## Contact / Support
-For support or inquiries, please contact the project maintainer at [your-email@example.com].
+For support or inquiries, please contact the project maintainer at [darnelcastor2@gmail.com].
 
 ## Acknowledgments
 - Thanks to the contributors and the open-source community for their support and resources.
